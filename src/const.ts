@@ -4,6 +4,13 @@ export const balloonImageUrl = browser.runtime.getURL(
   'resources/icons/icon-128.png'
 );
 
+export const popGoldSoundUrl = browser.runtime.getURL(
+  'resources/audio/popGold.mp3'
+);
+export const balloonGoldImageUrl = browser.runtime.getURL(
+  'resources/icons/iconGold-128.png'
+);
+
 //
 // * Config types
 //
